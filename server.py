@@ -11,7 +11,7 @@ class Item(BaseModel):
 
 @app.get("/calculator/greeting")
 def greeting():
-    return {"result": "Hello world!"}
+    return "Hello world!"
 
 
 @app.post("/calculator/add")
